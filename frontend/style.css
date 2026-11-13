@@ -1,0 +1,19 @@
+/* Estilos iniciais do FarmaNorte */
+
+body {
+    margin: 0;
+    padding: 40px;
+    background-color: #f4f7fb;
+    font-family: Arial, sans-serif;
+    color: #243447;
+}
+
+h1 {
+    color: #087f6d;
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
