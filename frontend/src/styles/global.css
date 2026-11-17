@@ -1,0 +1,174 @@
+/* Estilos iniciais do FarmaNorte */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fb;
+    font-family: Arial, sans-serif;
+    color: #243447;
+}
+
+h1 {
+    color: #087f6d;
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* Tela de login */
+
+.pagina-inicial {
+    margin: 0;
+    padding: 40px;
+}
+
+.layout-login {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    min-height: 100vh;
+}
+
+/* Apresentação institucional */
+
+.apresentacao {
+    background: linear-gradient(145deg, #063d35, #087f6d);
+    color: white;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.identidade {
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 40px;
+}
+
+.apresentacao h1 {
+    color: white;
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+.apresentacao p {
+    color: #d0e8e1;
+    max-width: 400px;
+}
+
+.apresentacao footer {
+    position: absolute;
+    bottom: 40px;
+    font-size: 13px;
+    color: #d0e8e1;
+}
+
+/* Área de autenticação */
+
+.area-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+.painel-login {
+    width: 100%;
+    max-width: 380px;
+}
+
+.painel-login h2 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.painel-login p {
+    color: #64748b;
+}
+
+/* Formulário */
+
+#form-login {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+#form-login label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+#form-login input {
+    padding: 14px;
+    font-size: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    margin-bottom: 22px;
+    outline: none;
+    transition: 0.2s;
+}
+
+#form-login input:focus {
+    border-color: #087f6d;
+    box-shadow: 0 0 0 3px #087f6d20;
+}
+
+#btn-entrar {
+    padding: 15px;
+    background-color: #087f6d;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#btn-entrar:hover {
+    background-color: #065e51;
+}
+
+.aviso-acesso {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 28px;
+}
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+    .layout-login {
+        grid-template-columns: 1fr;
+    }
+
+    .apresentacao {
+        padding: 90px 30px 60px;
+    }
+
+    .apresentacao h1 {
+        font-size: 30px;
+    }
+
+    .identidade {
+        top: 25px;
+    }
+
+    .apresentacao footer {
+        bottom: 20px;
+    }
+
+    .area-login {
+        padding: 40px 25px;
+    }
+}
+

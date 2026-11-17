@@ -1,0 +1,23 @@
+{
+    "name": "farmanorte-backend",
+    "version": "0.1.0",
+    "description": "API de gestão farmacêutica e distribuição de medicamentos no Amazonas",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node --watch server.js"
+    },
+    "keywords": [
+        "farmanorte",
+        "medicamentos",
+        "estoque",
+        "amazonas"
+    ],
+    "author": "Pedro Jhevison Menezes de Souza",
+    "private": true,
+    "type": "commonjs",
+    "dependencies": {
+        "cors": "^2.8.6",
+        "express": "^5.3.0"
+    }
+}
