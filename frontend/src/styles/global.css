@@ -172,3 +172,24 @@ p {
     }
 }
 
+
+/* Estado da última consulta ao backend */
+.painel-login .status-api {
+    margin: 18px 0 0;
+    padding: 10px 12px;
+    border-radius: 8px;
+    background: #f1f5f9;
+    color: #475569;
+    font-size: 13px;
+    text-align: center;
+}
+
+.painel-login .status-api--online {
+    background: #e5f5ef;
+    color: #065e51;
+}
+
+.painel-login .status-api--indisponivel {
+    background: #fef2f2;
+    color: #991b1b;
+}

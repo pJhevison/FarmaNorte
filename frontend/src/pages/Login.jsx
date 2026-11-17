@@ -1,4 +1,5 @@
 import LoginForm from '../components/LoginForm.jsx';
+import ApiStatus from '../components/ApiStatus.jsx';
 
 export default function Login() {
   return (
@@ -20,6 +21,7 @@ export default function Login() {
           <h2>Acesse sua conta</h2>
           <p>Informe suas credenciais para continuar.</p>
           <LoginForm />
+          <ApiStatus />
           <p className="aviso-acesso">
             Acesso exclusivo para profissionais autorizados.
           </p>
