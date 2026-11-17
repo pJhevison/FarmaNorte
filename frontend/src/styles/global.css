@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    padding: 40px;
+    padding: 0;
     background-color: #f4f7fb;
     font-family: Arial, sans-serif;
     color: #243447;
@@ -21,9 +21,9 @@ p {
 
 /* Tela de login */
 
-.pagina-login {
+.pagina-inicial {
     margin: 0;
-    padding: 0;
+    padding: 40px;
 }
 
 .layout-login {

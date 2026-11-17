@@ -1,75 +1,12 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login | FarmaNorte</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="pagina-login">
-
-    <main class="layout-login">
-
-        <section class="apresentacao">
-            <span class="identidade">FarmaNorte</span>
-
-            <h1>Sistema inteligente<br>de logística e estoque.</h1>
-
-            <p>
-                Sistema de Gestão Farmacêutica e Distribuição
-                de Medicamentos no Amazonas.
-            </p>
-
-         <footer>
-                <p>Projeto acadêmico — UFAM / ICET</p>
-                <p>Discente — Pedro Jhevison</p>
-</footer>
-            
-        </section>
-
-        <section class="area-login">
-            <div class="painel-login">
-
-                <h2>Acesse sua conta</h2>
-                <p>Informe suas credenciais para continuar.</p>
-
-                <form id="form-login" method="post">
-
-                    <label for="email">E-mail</label>
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        placeholder="Digite seu e-mail"
-                        autocomplete="username"
-                        required
-                    >
-
-                    <label for="senha">Senha</label>
-                    <input
-                        type="password"
-                        id="senha"
-                        name="senha"
-                        placeholder="Digite sua senha"
-                        autocomplete="current-password"
-                        required
-                    >
-
-                    <button type="submit" id="btn-entrar">
-                        Entrar no sistema
-                    </button>
-
-                </form>
-
-                <p class="aviso-acesso">
-                    Acesso exclusivo para profissionais autorizados.
-                </p>
-
-            </div>
-        </section>
-
-    </main>
-        <script src="login.js"></script>
-</body>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
